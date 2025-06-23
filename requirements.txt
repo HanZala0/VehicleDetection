@@ -6,3 +6,4 @@ numpy==1.23.5
 torch==2.0.1  # Downgraded for compatibility
 torchvision==0.15.2  # Matching version
 tqdm==4.66.1
+Pillow==10.3.0
