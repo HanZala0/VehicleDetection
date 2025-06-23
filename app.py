@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 from ultralytics import YOLO
 import supervision as sv
 import tempfile
@@ -7,6 +6,7 @@ import os
 import numpy as np
 from typing import Optional
 from PIL import Image
+import cv2
 
 # Set page config
 st.set_page_config(page_title="Vehicle Detection System", layout="wide")
