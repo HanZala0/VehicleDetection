@@ -12,7 +12,7 @@ import cv2
 st.set_page_config(page_title="Vehicle Detection System", layout="wide")
 
 # Sidebar navigation
-page = st.sidebar.radio("Select Page", ["Video Object Detection", "Bangladeshi Vehicle Detection"])
+page = st.sidebar.radio("Select Page", ["Vehicle Detection from video", "Bangladeshi Vehicle Detection from image"])
 
 if page == "Vehicle Detection from video":
     st.title("Vehicle Detection, Tracking & Counting")
