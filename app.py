@@ -15,7 +15,7 @@ st.set_page_config(page_title="Vehicle Detection System", layout="wide")
 page = st.sidebar.radio("Select Page", ["Video Object Detection", "Bangladeshi Vehicle Detection"])
 
 if page == "Video Object Detection":
-    st.title("YOLOv8 Object Detection, Tracking & Counting (Optimized)")
+    st.title("YOLOv8 Object Detection, Tracking & Counting")
     st.markdown("Upload a video to detect, track, and count objects using YOLOv8 and Supervision.")
 
     # Define the ONLY allowed classes
