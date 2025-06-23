@@ -14,7 +14,7 @@ st.set_page_config(page_title="Vehicle Detection System", layout="wide")
 # Sidebar navigation
 page = st.sidebar.radio("Select Page", ["Video Object Detection", "Bangladeshi Vehicle Detection"])
 
-if page == "Video Object Detection":
+if page == "Vehicle Detection from video":
     st.title("Vehicle Detection, Tracking & Counting")
     st.markdown("Upload a video to detect, track, and count objects using YOLOv8 and Supervision.")
 
@@ -172,7 +172,7 @@ if page == "Video Object Detection":
     if uploaded_file:
         process_video()
 
-elif page == "Bangladeshi Vehicle Detection":
+elif page == "Bangladeshi Vehicle Detection from image":
     st.title("Bangladeshi Vehicle Detection")
     st.markdown("Upload an image to detect Bangladeshi vehicles using YOLOv8")
     
