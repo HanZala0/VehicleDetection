@@ -83,8 +83,8 @@ if page == "Vehicle Detection from video":
         resized_height = int(height * resize_factor)
 
         # Line counter setup (horizontal line in the middle)
-        line_start = sv.Point(0, int(resized_height / 1.67))
-        line_end = sv.Point(resized_width, int(resized_height / 1.67))
+        line_start = sv.Point(0, int(resized_height / 2))
+        line_end = sv.Point(resized_width, int(resized_height / 2))
         line_counter = sv.LineZone(start=line_start, end=line_end)
         line_annotator = sv.LineZoneAnnotator(thickness=2, text_thickness=1, text_scale=0.8)
 
