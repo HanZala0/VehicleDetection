@@ -174,7 +174,7 @@ if page == "Vehicle Detection from video":
 
 elif page == "Bangladeshi Vehicle Detection from image":
     st.title("Bangladeshi Vehicle Detection")
-    st.markdown("Upload an image to detect Bangladeshi vehicles using YOLOv8")
+    st.markdown("Upload an image to detect Bangladeshi vehicles using custom YOLOv8.It can detect 'ambulance', 'army vehicle', 'auto rickshaw', 'bicycle', 'bus', 'car', 'garbagevan', 'human hauler', 'minibus', 'minivan', 'motorbike', 'pickup', 'policecar', 'rickshaw', 'scooter', 'suv', 'taxi', 'three wheelers -CNG-', 'truck', 'van', 'wheelbarrow'.")
     
     # Sidebar options for Bangladeshi vehicle detection
     with st.sidebar:
